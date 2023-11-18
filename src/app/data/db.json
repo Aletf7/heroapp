@@ -1,0 +1,317 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postid": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "heroes": [
+    {
+      "name": "Spider-Man",
+      "real_name": "Peter Parker",
+      "dob": "1994-06-19T23:00:00.000Z",
+      "type": "Hero",
+      "publisher": "Marvel Comics",
+      "company": "Sony",
+      "story": "es tu amigo y vecino",
+      "id": 1
+    },
+    {
+      "name": "Iron Man",
+      "real_name": "Tonny Stark",
+      "dob": "2023-11-21T00:00:00.000Z",
+      "type": "Hero",
+      "publisher": "Marvel Comics",
+      "company": "",
+      "story": "",
+      "id": 2
+    },
+    {
+      "name": "Batman",
+      "real_name": "Bruce Wayne",
+      "dob": "",
+      "type": "Hero",
+      "publisher": "DC Comics",
+      "company": "",
+      "story": "huerfano",
+      "id": 3
+    },
+    {
+      "name": "Superman",
+      "real_name": "Clark Kent",
+      "dob": "",
+      "type": "Hero",
+      "publisher": "DC Comics",
+      "company": "dasdd",
+      "story": "sfafsfsdfsfds",
+      "id": 4
+    },
+    {
+      "name": "Captain America",
+      "real_name": "Steve Royer",
+      "dob": "",
+      "type": "Hero",
+      "publisher": "Marvel Comics",
+      "company": "",
+      "story": "",
+      "id": 5
+    },
+    {
+      "name": "Doctor Strange",
+      "type": "Hero",
+      "id": 6,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/doctor-strange.jpg"
+    },
+    {
+      "name": "Wonder Woman",
+      "type": "Hero",
+      "id": 7,
+      "publisher": "DC Comics",
+      "image": "../assets/images/wonder-woman.jpg"
+    },
+    {
+      "name": "Wolverine",
+      "type": "Hero",
+      "id": 8,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/wolverine.jpg"
+    },
+    {
+      "name": "Thor",
+      "type": "Hero",
+      "id": 9,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/thor.jpg"
+    },
+    {
+      "name": "Hulk",
+      "type": "Hero",
+      "id": 10,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/hulk.jpg"
+    },
+    {
+      "name": "Deadpool",
+      "type": "Hero",
+      "id": 11,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/deadpool.jpg"
+    },
+    {
+      "name": "Hawkeye",
+      "type": "Hero",
+      "id": 12,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/hawkeye.jpg"
+    },
+    {
+      "name": "Star Lord",
+      "type": "Hero",
+      "id": 13,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/star-lord.jpg"
+    },
+    {
+      "name": "Black Panther",
+      "type": "Hero",
+      "id": 14,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/black-panther.jpg"
+    },
+    {
+      "name": "Ant Man",
+      "type": "Hero",
+      "id": 15,
+      "publisher": "Marvel",
+      "image": "../assets/images/ant-man.jpg"
+    },
+    {
+      "name": "Joker",
+      "type": "Villian",
+      "id": 16,
+      "publisher": "DC Comics",
+      "image": "../assets/images/joker.jpg"
+    },
+    {
+      "name": "Loki",
+      "type": "Villian",
+      "id": 17,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/loki.jpg"
+    },
+    {
+      "name": "Venom",
+      "type": "Villian",
+      "id": 18,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/venom.jpeg"
+    },
+    {
+      "name": "Doctor Doom",
+      "type": "Villian",
+      "id": 19,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/doctor-doom.jpg"
+    },
+    {
+      "name": "Mysterio",
+      "type": "Villian",
+      "id": 20,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/mysterio.jpg"
+    },
+    {
+      "name": "Doctor Octopus",
+      "type": "Villian",
+      "id": 21,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/doctor-octopus.jpg"
+    },
+    {
+      "name": "Green Goblin",
+      "type": "Villian",
+      "id": 22,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/green-goblin.jpg"
+    },
+    {
+      "name": "Magneto",
+      "type": "Villian",
+      "id": 23,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/magneto.jpg"
+    },
+    {
+      "name": "Wolverine",
+      "type": "Hero",
+      "id": 24,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/wolverine.jpg"
+    },
+    {
+      "name": "Cyclops",
+      "type": "Hero",
+      "id": 25,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/cyclops.jpg"
+    },
+    {
+      "name": "Mystique",
+      "type": "Hero",
+      "id": 26,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/mystique.jpg"
+    },
+    {
+      "name": "Storm",
+      "type": "Hero",
+      "id": 27,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/storm.jpg"
+    },
+    {
+      "name": "Beast",
+      "type": "Hero",
+      "id": 28,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/beast.jpg"
+    },
+    {
+      "name": "Rogue",
+      "type": "Hero",
+      "id": 29,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/rogue.jpg"
+    },
+    {
+      "name": "Colossus",
+      "type": "Hero",
+      "id": 30,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/colossus.png"
+    },
+    {
+      "name": "Nightcrawler",
+      "type": "",
+      "id": 31,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/nightcrawler.jpg"
+    },
+    {
+      "name": "Weapon X",
+      "type": "Hero",
+      "id": 32,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/weapon-x.jpg"
+    },
+    {
+      "name": "Gambit",
+      "type": "Hero",
+      "id": 33,
+      "publisher": "Marvel Comics",
+      "image": "../assets/images/gambit.jpg"
+    },
+    {
+      "name": "pepe",
+      "real_name": "pepe",
+      "dob": "2023-11-14T00:00:00.000Z",
+      "type": "others",
+      "publisher": "Xmen Comics",
+      "company": "sony",
+      "story": "asfjoiahsofhaosh",
+      "id": 34
+    },
+    {
+      "name": "pepe",
+      "real_name": "pepe",
+      "dob": "2023-11-14T00:00:00.000Z",
+      "type": "Villian",
+      "publisher": "DC Comics",
+      "company": "sony",
+      "story": "",
+      "id": 35
+    },
+    {
+      "name": "adfasf",
+      "real_name": "fsadfa",
+      "dob": "2023-11-13T00:00:00.000Z",
+      "type": "Villian",
+      "publisher": "DC Comics",
+      "company": "loquin",
+      "story": "esto es otra prueba",
+      "id": 36
+    },
+    {
+      "name": "Robocop",
+      "real_name": "John",
+      "dob": "2023-11-12T00:00:00.000Z",
+      "type": "Hero",
+      "publisher": "Marvel Comics",
+      "company": "Sony",
+      "story": "sajdafashfjahsfj asdasdads",
+      "id": 37
+    },
+    {
+      "name": "ake",
+      "real_name": "opp",
+      "dob": "",
+      "type": "Hero",
+      "publisher": "Xmen Comics",
+      "company": "das",
+      "story": "uioiuyy",
+      "id": 38
+    }
+  ]
+}
