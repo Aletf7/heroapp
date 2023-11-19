@@ -12,7 +12,6 @@ import {MatRadioModule} from '@angular/material/radio';
 import { CommonModule } from '@angular/common';
 
 
-
 @Component({
   selector: 'app-hero-forms',
   templateUrl: './hero-forms.component.html',
@@ -28,7 +27,7 @@ import { CommonModule } from '@angular/common';
     MatRadioModule,
     ReactiveFormsModule,
     MatDialogModule,
-    CommonModule
+    CommonModule,
   ],
 })
 export class HeroFormsComponent implements OnInit {

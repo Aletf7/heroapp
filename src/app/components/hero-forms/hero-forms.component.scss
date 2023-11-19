@@ -21,4 +21,12 @@
       flex: 1;
     }
   }
+  .image{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    object-fit: cover;
+  }
   

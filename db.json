@@ -284,16 +284,6 @@
       "id": 35
     },
     {
-      "name": "adfasf",
-      "real_name": "fsadfa",
-      "dob": "2023-11-13T00:00:00.000Z",
-      "type": "Villian",
-      "publisher": "DC Comics",
-      "company": "loquin",
-      "story": "esto es otra prueba",
-      "id": 36
-    },
-    {
       "name": "Robocop",
       "real_name": "John",
       "dob": "2023-11-12T00:00:00.000Z",
@@ -302,16 +292,6 @@
       "company": "Sony",
       "story": "sajdafashfjahsfj asdasdads",
       "id": 37
-    },
-    {
-      "name": "ake",
-      "real_name": "opp",
-      "dob": "",
-      "type": "Hero",
-      "publisher": "Xmen Comics",
-      "company": "das",
-      "story": "uioiuyy",
-      "id": 38
     }
   ]
 }

@@ -12,7 +12,7 @@ import { HeroTableComponent } from 'src/app/components';
   imports: [
     CommonModule,
     HomeRoutingModule,
-    HeroTableComponent,
+    HeroTableComponent
   ]
 })
 export class HomeModule { }

@@ -1,6 +1,8 @@
 # Heroapp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.2.7.
+![Alt text](/src/assets/screenshot/tabla.png)
+![Alt text](/src/assets/screenshot/form.png)
 
 ## Development server
 

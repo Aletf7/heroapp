@@ -1,5 +1,6 @@
-import { CommonModule } from '@angular/common';
+import { CommonModule,NgFor, NgIf } from '@angular/common';
 import { Component, OnInit, ViewChild } from '@angular/core';
+import { animate, state, style, transition, trigger } from '@angular/animations';
 import { MatFormFieldModule } from '@angular/material/form-field';
 import { MatInputModule } from '@angular/material/input';
 import { MatPaginator, MatPaginatorModule } from '@angular/material/paginator';
@@ -11,6 +12,7 @@ import { HeroFormsComponent } from '../hero-forms/hero-forms.component';
 import { HeroService } from 'src/app/service/hero.service';
 import { CoreService } from 'src/app/service/core/core.service';
 import { MatDialog } from '@angular/material/dialog';
+import { Hero } from 'src/app/models';
 
 @Component({
   selector: 'app-hero-table',
@@ -23,7 +25,16 @@ import { MatDialog } from '@angular/material/dialog';
     MatInputModule, 
     MatSortModule, 
     MatIconModule,
-    MatButtonModule
+    MatButtonModule,
+    NgFor, 
+    NgIf
+  ],
+  animations: [
+    trigger('detailExpand', [
+      state('collapsed', style({height: '0px', minHeight: '0'})),
+      state('expanded', style({height: '*'})),
+      transition('expanded <=> collapsed', animate('225ms cubic-bezier(0.4, 0.0, 0.2, 1)')),
+    ]),
   ],
   templateUrl: './hero-table.component.html',
   styleUrls: ['./hero-table.component.scss'],
@@ -33,12 +44,14 @@ export class HeroTableComponent implements OnInit {
     'id', 
     'name', 
     'type', 
-    'publisher', 
-    'actionbutton'
+    'publisher'
   ];
   dataSource!: MatTableDataSource<any>;
   @ViewChild(MatPaginator) paginator!: MatPaginator;
   @ViewChild(MatSort) sort!: MatSort;
+  columnsToDisplayWithExpand = [...this.displayedColumns, 'expand'];
+  expandedElement!: Hero | null;
+  row: any;
 
   constructor(
     private _heroService: HeroService,
@@ -49,16 +62,6 @@ export class HeroTableComponent implements OnInit {
   ngOnInit():void {
     this.getHeroList();
   }
-  // openAddEditHeroForm() {
-  //   const dialogRef = this._dialog.open(HeroFormsComponent);
-  //   dialogRef.afterClosed().subscribe({
-  //     next: (val: any) => {
-  //       if (val) {
-  //         this.getHeroList();
-  //       }
-  //     },
-  //   });
-  // }
 
   applyFilter(event: Event) {
     const filterValue = (event.target as HTMLInputElement).value;

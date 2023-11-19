@@ -17,7 +17,7 @@ table {
   }
   
   tr.example-element-row:not(.example-expanded-row):hover {
-    background: whitesmoke;
+    background: rgb(88, 87, 87);
   }
   
   tr.example-element-row:not(.example-expanded-row):active {
@@ -42,10 +42,19 @@ table {
     height: 104px;
   }
   
-  .example-element-symbol {
+  .example-element-img {
     font-weight: bold;
     font-size: 40px;
     line-height: normal;
+    background-image: url('../../../assets/images/loading_img.jpg');
+  }
+  .image{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    margin-bottom: 16px;
+    object-fit: cover;
   }
   
   .example-element-description {
@@ -58,5 +67,12 @@ table {
   .example-button-container {
     display: flex;
     justify-content: center;
-    width: 120px;
+    width: 150px;
+  }
+  .icon-button{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 48px;
+    width: 172px;
+
   }
