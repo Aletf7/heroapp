@@ -71,197 +71,169 @@
       "name": "Doctor Strange",
       "type": "Hero",
       "id": 6,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/doctor-strange.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Wonder Woman",
       "type": "Hero",
       "id": 7,
-      "publisher": "DC Comics",
-      "image": "../assets/images/wonder-woman.jpg"
+      "publisher": "DC Comics"
     },
     {
       "name": "Wolverine",
       "type": "Hero",
       "id": 8,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/wolverine.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Thor",
       "type": "Hero",
       "id": 9,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/thor.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Hulk",
       "type": "Hero",
       "id": 10,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/hulk.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Deadpool",
       "type": "Hero",
       "id": 11,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/deadpool.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Hawkeye",
       "type": "Hero",
       "id": 12,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/hawkeye.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Star Lord",
       "type": "Hero",
       "id": 13,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/star-lord.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Black Panther",
       "type": "Hero",
       "id": 14,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/black-panther.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Ant Man",
       "type": "Hero",
       "id": 15,
-      "publisher": "Marvel",
-      "image": "../assets/images/ant-man.jpg"
+      "publisher": "Marvel"
     },
     {
       "name": "Joker",
       "type": "Villian",
       "id": 16,
-      "publisher": "DC Comics",
-      "image": "../assets/images/joker.jpg"
+      "publisher": "DC Comics"
     },
     {
       "name": "Loki",
       "type": "Villian",
       "id": 17,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/loki.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Venom",
       "type": "Villian",
       "id": 18,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/venom.jpeg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Doctor Doom",
       "type": "Villian",
       "id": 19,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/doctor-doom.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Mysterio",
       "type": "Villian",
       "id": 20,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/mysterio.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Doctor Octopus",
       "type": "Villian",
       "id": 21,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/doctor-octopus.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Green Goblin",
       "type": "Villian",
       "id": 22,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/green-goblin.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Magneto",
       "type": "Villian",
       "id": 23,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/magneto.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Wolverine",
       "type": "Hero",
       "id": 24,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/wolverine.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Cyclops",
       "type": "Hero",
       "id": 25,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/cyclops.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Mystique",
       "type": "Hero",
       "id": 26,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/mystique.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Storm",
       "type": "Hero",
       "id": 27,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/storm.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Beast",
       "type": "Hero",
       "id": 28,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/beast.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Rogue",
       "type": "Hero",
       "id": 29,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/rogue.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Colossus",
       "type": "Hero",
       "id": 30,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/colossus.png"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Nightcrawler",
       "type": "",
       "id": 31,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/nightcrawler.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Weapon X",
       "type": "Hero",
       "id": 32,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/weapon-x.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "Gambit",
       "type": "Hero",
       "id": 33,
-      "publisher": "Marvel Comics",
-      "image": "../assets/images/gambit.jpg"
+      "publisher": "Marvel Comics"
     },
     {
       "name": "pepe",
@@ -270,7 +242,7 @@
       "type": "others",
       "publisher": "Xmen Comics",
       "company": "sony",
-      "story": "asfjoiahsofhaosh",
+      "story": "este es un personaje de prueba",
       "id": 34
     },
     {
@@ -290,7 +262,7 @@
       "type": "Hero",
       "publisher": "Marvel Comics",
       "company": "Sony",
-      "story": "sajdafashfjahsfj asdasdads",
+      "story": "Policia que acaba recibiendo una cirugia y lo convierte en un robot",
       "id": 37
     }
   ]

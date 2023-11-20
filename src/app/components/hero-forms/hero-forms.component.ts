@@ -1,7 +1,7 @@
-import {Component, Inject, Input, OnInit} from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {MatInputModule} from '@angular/material/input';
 import {MatFormFieldModule} from '@angular/material/form-field';
-import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {FormBuilder, FormGroup, FormsModule, ReactiveFormsModule, Validators} from '@angular/forms';
 import { MatSelectModule } from '@angular/material/select';
 import { HeroService } from 'src/app/service/hero.service';
 import { MatDialogRef, MAT_DIALOG_DATA, MatDialogModule } from '@angular/material/dialog';
@@ -47,11 +47,11 @@ export class HeroFormsComponent implements OnInit {
     private _coreService: CoreService
   ) {
     this.heroForm = this._fb.group({
-      name: '',
+      name: ['', Validators.compose([Validators.required])],
       real_name: '',
       dob: '',
-      type: '',
-      publisher: '',
+      type:'',
+      publisher: ['', Validators.compose([Validators.required])],
       company: '',
       story: '',
     });

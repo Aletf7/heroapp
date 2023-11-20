@@ -7,7 +7,7 @@
       <div class="row">
           <mat-form-field appearance="outline">
               <mat-label>Superhero name</mat-label>
-              <input matInput type="text" placeholder="Ex. Ironman" formControlName="name">
+              <input matInput type="text" placeholder="Ex. Ironman" formControlName="name" required>
           </mat-form-field>
           <mat-form-field appearance="outline">
               <mat-label>Real Name</mat-label>
@@ -30,21 +30,21 @@
               <mat-label><b>Type</b></mat-label>
               <mat-radio-button value="Hero">Hero</mat-radio-button>
               <mat-radio-button value="Villian">Villian</mat-radio-button>
-              <mat-radio-button value="others">Others</mat-radio-button>
+              <mat-radio-button value="Others">Others</mat-radio-button>
           </mat-radio-group>
       </div>
 
       <div class="row">
           <mat-form-field appearance="outline">
               <mat-label>Publisher</mat-label>
-              <mat-select formControlName="publisher">
+              <mat-select formControlName="publisher" required>
                   <mat-option *ngFor="let val of publisher" [value]="val">{{val}}
                   </mat-option>
               </mat-select>
           </mat-form-field>
           <mat-form-field appearance="outline">
               <mat-label>Company</mat-label>
-              <input matInput placeholder="Ex. Google" formControlName="company">
+              <input matInput placeholder="Ex. Sony" formControlName="company">
           </mat-form-field>
       </div>
       <div class="row">
